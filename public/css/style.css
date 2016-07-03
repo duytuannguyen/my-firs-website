@@ -1,0 +1,438 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic&subset=latin,vietnamese,cyrillic-ext,latin-ext);
+Body, html, div, img, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dd, dt, blockquote, fieldset, legend, label, input, textarea {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	outline: none !important;
+}
+img, object, embed {
+	border: 0 none;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;	
+	height: auto;
+}
+body {
+	color: #7a7a7a;
+	position: relative;
+	font-size: 16px;	
+	font-family: Roboto; 
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+	background-color:#f8f8f8;
+}
+a {
+	text-decoration: none; 
+	color: #0089dd
+	outline: 0;
+	transition: all 0.2s ease 0s;
+}
+a:hover{ color:#b1334b}
+table { 
+  width: 100%; 
+  border-collapse: collapse;
+}
+
+th { 
+  
+  color: #0089dd; 
+  font-weight: bold; text-transform:uppercase; font-size:18px ;border-bottom: 3px solid #0089dd;padding: 10px 13px; 
+}
+td { 
+  padding: 10px 13px; 
+  border-bottom: 1px solid #ccc;  color:#333
+}
+
+.fleft { float:left}
+a:hover { color:#0089dd;text-decoration: none; }
+.bt { padding:15px 25px; background-color:#ffce01; color:#333; border:none; font-size:18px; text-transform:uppercase; font-weight:500;}
+.bt:hover { background-color:#fdda46}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0
+}
+* html .clearfix {
+	height: 1%
+}
+.txtcent { margin-top:15px; text-align:center}
+.headtext{
+	text-transform: uppercase;
+}
+
+
+
+/********main-homepage**********/
+
+.container-home{
+	background: url(../images/h-block2.jpg) repeat;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.inner-page{
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+}
+.nav-tab{
+	height: 55px;
+	background-color: #d8d8d8;
+	margin-bottom: 30px;
+}
+
+.Contmid{
+	border-top: 2px solid #0089dd;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.bxbit{
+	margin-top: 20px;
+}
+.bxbit .rowbit{
+	margin-bottom: 30px;
+}
+.bxbit .rowbit h2.date{
+	font-weight: bold;
+	font-size: 22px;
+	color: #0089dd;
+	margin-bottom: 5px;
+}
+.rowbit .linebox{
+	padding: 10px 0px;
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	margin-bottom: -1px;
+	position: relative;
+}
+
+.rowbit .bxtime{
+	background-image: url("../images/title-tab.png");
+	width: 200px;
+	line-height: 52px;
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+
+.rowbit .bxtime .txt{
+	float: left;
+	width: 70px;
+	color: #fff;
+	font-size: 36px;
+	text-align: center;
+}
+.rowbit .bxtime .time{
+	float: left;
+	width: 130px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #8c8c8c;
+	font-size: 22px;
+	text-align: center;
+}
+.rowbit .bxteamleft{
+	width: 280px;
+	float: left;
+	overflow: hidden;
+	line-height: 52px;
+	margin-right: 20px;
+	margin-left: 220px;
+	text-align: right;
+}
+.rowbit .bxteamleft .nameteam, .rowbit .bxteamright .nameteam{
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #666b67;
+}
+.rowbit .bxflags{
+	width: 280px;
+	float: left;
+	line-height: 52px;
+	border: 1px solid #39F;
+	border-radius: 50px;
+	padding: 3px;
+	overflow: hidden;
+}
+.bxflags .flags{
+	width: 44px;
+	height: 44px;
+	float: left;
+}
+.rowbit .bxflags *{
+	display: block;
+}
+.bxflags .point{
+	width: 182px;
+	float: left;
+	text-align: center;
+	font-size: 26px;
+	line-height: 44px;
+	}
+	.rowbit .bxteamright{
+	width: 280px;
+	float: left;
+	overflow: hidden;
+	line-height: 52px;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.countdown{
+	position: absolute;
+	font-size: 14px;
+	right: 0%;
+	top: -1px;
+	color: #8c8c8c;
+	text-align: center;
+	padding: 14px 10px 8px 20px;
+
+}
+
+.rowbit .bxteamright .bittet{
+	position: absolute;
+	background: url("../images/bg-bit.png") no-repeat left top;
+	right: 0%;
+	top: -1px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 14px 10px 8px 20px;
+}
+
+
+/********User info********/
+.banner-bread{
+	background: url(../images/h-block1.jpg) no-repeat top center;
+	min-height: 320px;
+	position: relative;
+}
+
+.inner-page{
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.bxaccount{
+width: 280px;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+background: rgba(0,0,0,0.5);
+padding: 30px;
+text-align: center;
+color: #fff;
+}
+
+.bxaccount .avatar{
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+}
+.bxaccount .avatar img{
+	border-radius: 100%;
+}
+.info-user{
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 20px;
+	line-height: 28px;
+	font-size: 18px;
+}
+.bxaccount .logout{
+	color: #fff;
+	text-transform: uppercase;
+}
+.bxaccount a{
+	cursor: pointer;
+}
+
+.banner-bread .contbox{
+	margin-left: 280px;
+	padding: 40px 40px 40px 50px;
+	overflow: hidden;
+}
+
+.banner-bread .contbox .bxleft{
+	float: left;
+	width: 45%;
+	text-align: center;
+}
+
+.banner-bread .contbox .bxright{
+	float: left;
+	width: 55%;
+	color: #fff;
+	padding-top: 40px;
+}
+.banner-bread .contbox .bxright h2{
+	font-size: 44px;
+	line-height: 55px;
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+.Container{
+	background: url("../images/h-block2.jpg") repeat;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.navtab-users{
+	height: 55px;
+	background-color: #d8d8d8;
+	margin-bottom: 30px;
+}
+.subtitle{
+	background: url("../images/bg-title.png") right no-repeat;
+	height: 60px;
+	padding-right: 32px;
+	display: inline-block;
+	margin-top: -5px;
+	float: left;
+}
+.subtitle span{
+	background-color: #0089dd;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 60px;
+	color: #fff;
+	padding: 0px 20px;
+	display: inline-block;
+}
+.contmid{
+	border-top: 2px solid #0089dd;
+	padding: 20px;
+	background-color: #fff;
+}
+.bxcont{
+	margin-top: 10px;
+}
+.croll_tb{
+	overflow: auto;
+}
+
+.rowbit .bxtime .top{
+	top: 50px;
+	z-index: 999;
+}
+
+.bxseclbit{
+	 /*border-top: 1px solid #0089dd; */
+	margin-top: -1px;
+	padding: 10px;
+	text-align: center;
+	padding-left: 430px;
+	z-index: 99;
+	position: relative;
+	overflow: hidden;
+}
+
+.bxseclbit .col{
+	width: 140px;
+	display: inline-block;
+	position: relative;
+	margin: 0 5px;
+	float: left;
+}
+.bxseclbit  .btbit{
+	padding: 8px 10px;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #0089dd;
+	text-align: center;
+}
+
+.bxseclbit  .btbit:hover{
+	background-color:#ffff00;
+}
+.rowbit .bxtime-user{
+	position: absolute;
+	left: 0;
+	top: 50px;
+	z-index: 100000;
+}
+
+.bxseclbit .col .formbit{
+	margin-top: 5px;
+	overflow: hidden;
+}
+.bxseclbit .col .formbit .inputbit{
+	border: 1px solid #39f;
+	width: 100px;
+	float: left;
+	font-size: 14px;
+	padding: 5px;
+}
+
+.bxseclbit .col .formbit .numbit{
+	border: 1px solid #39f;
+	width: 40px;
+	float: left;
+	font-size: 12px;
+	padding: 5px;
+	margin-left: -1px;
+}
+
+.bxseclbit .col .formbit .numbit:hover{
+	background-color: #999999;
+}
+
+/**************Admin page*****************/
+
+.navtab-users .menutab li{
+	float: left;
+}
+.navtab-users .menutab li a{
+	color: #7a7a7a;
+	line-height: 55px;
+	padding: 0 20px;
+	text-transform: uppercase;
+	font-size: 16px;
+	display: block;
+}
+.navtab-users .menutab li a:hover{
+	color: #0089dd;
+}
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.hover{
+	background-color: #d8d8d8;
+}
+.nameteam{
+	color: #0089dd;
+}
+
+footer{
+	background-color: #000;
+	padding: 20px 0px;
+	border-top: 1px solid #333;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.bet-layout{
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+.apv-logo{
+	z-index: 100;
+}
+.navbar{
+	z-index: 99999999999999999;
+}
